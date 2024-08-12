@@ -30,7 +30,7 @@ body{
     background-color: aquamarine;
 }
 .login-container1 label{
-    font-weight: 400;
+    font-weight: bold;
 }
 p.forgetpsw{
     margin-top: 10px;
