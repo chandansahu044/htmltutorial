@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: grey;
+    color: white;
+    height: 70px;
+    align-content: center;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu-container ul{
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    column-gap: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.login-btn a{
+    text-decoration: none;
+}
+.banner{
+    position:relative;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    align-content: center;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+.banner-btn{
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+.banner-btn a{
+    text-decoration: none;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: green;
+    border: 3px solid orange;
+    color: white;
+    animation-name: example;
+    animation-duration: 5s;
+    /* animation-delay: 10s; */
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+.form-contaner{
+    width: 100%;
+    height: 150px;
+    background-color:red;
+    display: flex;
+    align-items:center;
+    text-align:center;
+}
+input{
+    height: 30px;
+    width: 200px;
+    margin-right: 50px;
+    padding-left: 20px;
+}
+input::placeholder{
+    font-weight: bold;
+}
+form{
+    width: 100%; 
+}
+
+/* footer */
+.footer{
+    background-color: yellowgreen;
+    color: black;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 40px;
+    border-top: 3px dotted black;
+}
+.footer h3{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    margin-bottom: 10px;
+    font-weight:500;
+}
+
+/* footer-copyright */
+.footer-copyright{
+    background-color: yellowgreen;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-top: 3px dotted black;
+}

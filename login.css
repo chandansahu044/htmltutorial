@@ -1,0 +1,44 @@
+.login-container1{
+    border: 2px solid black;
+    text-align: center;
+    width: 20%;
+    height: 250px;
+    margin: auto;
+    /* vh: vertical height
+    hw: horizontal width */
+    margin-top: 20vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.login-container1 input{
+    width: 87%;
+    padding: 0px 20px;
+    /* background-color:aquamarine; */
+}
+.login-container1 .login-btn{
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+body{
+    background-color: aquamarine;
+}
+.login-container1 label{
+    font-weight: bold;
+}
+p.forgetpsw{
+    margin-top: 10px;
+}
+.login-container1 form{
+    display: flex ;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+
+}
